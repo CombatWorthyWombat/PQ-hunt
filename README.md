@@ -16,6 +16,6 @@ supports all 256 ansi escape codes, does not support:
   - YPbPr
   - CYM
   - YIQ
-  - + any other colour systems
+  - or any other colour systems
 
 might add support for these in the future (or if people ask)
