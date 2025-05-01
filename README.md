@@ -1,5 +1,7 @@
-# colour_module
+# cliFX_module
 a small module for making CLI beautifying a little easier
+
+added verbose_print function
 
 command syntax as follows:
 
