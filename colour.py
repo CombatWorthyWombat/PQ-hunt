@@ -40,10 +40,11 @@ class colour:
                 code_or_name = str(code_or_name)
             elif code_or_name is None:
                 raise ValueError(f"unknown colour: {name}")
-            return f"\033[38;5;{code_or_name}m" + "text" + RESET
+            return f"\033[38;5;{code_or_name}m" + f"{text}" + RESET
         return colour_function
 
     def parse_colour(self, code_or_name):
+
         if code_or_name in self.colour_map:
             return self.colour_map[code_or_name]
         elif code_or_name[4:].isdigit() and int(code_or_name[4:]) <= 256:
@@ -54,7 +55,6 @@ class colour:
         return None
 
     def ansi_remind(self):
-        print("\n")
         for i in range(0, 256):
             colour = f"\033[38;5;{i:03d}m"
             if i == 17 or i == 231:
@@ -64,10 +64,20 @@ class colour:
             else:
                 carriage = " "
             print(colour + f"{i:03d}" + RESET, end=carriage)
-        print("\n")
 
 c = colour()
+verbose = True
+if verbose == True:
+    
+    def verbose_print(*args):
+        for arg in args:
+            print(arg, "\n", end="")
+else:
+    def verbose_print(*args):
+        pass
+    
 
 if __name__ == "__main__":
     c.ansi_remind()
-    print(c.ansi196("test"))
+    print(c.ansi196("red text here"))
+    verbose_print(c.ansi111("verbose text here"))
