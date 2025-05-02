@@ -1,6 +1,8 @@
+15/4/2025
 added a colour module - syntax is:
   c.red("text")
   c.ansi198("text")
 
+2/5/2025
 added a verbose_print function
 is enabled if verbose == True, and disabled if verbose != True
