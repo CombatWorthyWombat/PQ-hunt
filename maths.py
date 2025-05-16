@@ -100,7 +100,7 @@ if __name__ == "__main__":
     # print(sqrt_baby(100))
     # print(sqrt_exponent(1029))
     print(prime_sieve(100000000))
-    # print(is_prime(967848345623444444444444444443222222423425))
+    print(is_prime(967848345623444444444444444443222222423425))
     # print(sqrt_exponent(11111111111111111111111111111111117))
 
 
