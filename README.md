@@ -15,14 +15,14 @@ language: python3
 
 define a CLI interface/UI
 
-	- colour and read-out functions
-	- verbose mode
+	- colour and read-out functions ☑
+	- verbose mode ☑
 	- time estimation for tasks
 	- loading bars/spinners
 
 implement maths module
 
-	- prime number handling
+	- prime number handling ☑
 	- modular inverse functions
 	- gcd(a, b) function
 
@@ -49,7 +49,7 @@ implement non-factorization attacks
 	
 implement lookup factorisation attacks
  
-	- factorDB lookup
+	- factorDB lookup ☑
 	- Rapid7 gcd prime dataset
 	- wolfram alpha
 	- past CTF primes
@@ -64,3 +64,5 @@ implement mathematical factorisation attacks
 	- Mersenne prime search and gcd
 	- fermat numbers search and gcd 2^(2^n) + 1
 	- quadratic sieve
+ 
+ This is not a complete list of planned features, more attacks and other bits and bobs will be added as and when
