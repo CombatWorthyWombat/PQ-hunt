@@ -19,22 +19,26 @@ define a CLI interface/UI
 	- time estimation for tasks
 	- loading bars/spinners
 
-implement maths module \n
-	- prime number handling \n
-	- modular inverse functions \n
-	- gcd(a, b) function \n
+implement maths module
 
-implement basic RSA parsing tools \n
-	- basic RSA decryption using known public and private keys \n
-	- RSA encryption setup using known public keys \n
-	- n, e, p, q, d, phi, eulers totient conversions for the above \n
+	- prime number handling
+	- modular inverse functions
+	- gcd(a, b) function
+
+implement basic RSA parsing tools
+
+	- basic RSA decryption using known public and private keys
+	- RSA encryption setup using known public keys
+	- n, e, p, q, d, phi, eulers totient conversions for the above
 
 implement other parsing tools
+
 	- text to dec/hex/b64/bin and others
 	- dec/hex/b64/bin to text
 	- parser for standard format RSA keys
 	
 implement non-factorization attacks
+
 	- Wieners attack for small d, d*e = 1 (mod φ(n)) - infeasable with e > 65537
 	- Hastad's broadcast attack for multiple cts with low public exponenet
 	- partial q or p values
@@ -43,12 +47,16 @@ implement non-factorization attacks
 	- common factor for ct and n
 	
 implement factorization attacks
+
 	- lookup attacks
+ 
 		- factorDB lookup
 		- Rapid7 gcd prime dataset
 		- wolfram alpha
 		- past CTF primes
+  
 	- mathmatical attacks
+ 
 		- small n factorisation
 		- searching p/q values smaller than 100,000
 		- assume p and q are close, and factorise based on root need
