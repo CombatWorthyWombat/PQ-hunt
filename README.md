@@ -13,7 +13,7 @@ scope: beginner to intermediate RSA CTF challenges, targeting weak RSA implement
 
 language: python3
 
-define a CLI interface/UI
+define a CLI/UI
 
 	- colour and read-out functions ☑
 	- verbose mode ☑
