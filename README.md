@@ -14,6 +14,7 @@ scope: beginner to intermediate RSA CTF challenges, targeting weak RSA implement
 language: python3
 
 define a CLI interface/UI
+
 	- colour and read-out functions
 	- verbose mode
 	- time estimation for tasks
@@ -46,22 +47,20 @@ implement non-factorization attacks
 	- same N, different e for two RSA cts attack
 	- common factor for ct and n
 	
-implement factorization attacks
-
-	- lookup attacks
+implement lookup factorisation attacks
  
-		- factorDB lookup
-		- Rapid7 gcd prime dataset
-		- wolfram alpha
-		- past CTF primes
+	- factorDB lookup
+	- Rapid7 gcd prime dataset
+	- wolfram alpha
+	- past CTF primes
   
-	- mathmatical attacks
+implement mathematical factorisation attacks
  
-		- small n factorisation
-		- searching p/q values smaller than 100,000
-		- assume p and q are close, and factorise based on root need
-		- Pollards p-1 - for non cryptographicall safe primes
-		- Pollards rho - upper limit of O(n^1/4)
-		- Mersenne prime search and gcd
-		- fermat numbers search and gcd 2^(2^n) + 1
-		- quadratic sieve
+	- small n factorisation
+	- searching p/q values smaller than 100,000
+	- assume p and q are close, and factorise based on root need
+	- Pollards p-1 - for non cryptographicall safe primes
+	- Pollards rho - upper limit of O(n^1/4)
+	- Mersenne prime search and gcd
+	- fermat numbers search and gcd 2^(2^n) + 1
+	- quadratic sieve
