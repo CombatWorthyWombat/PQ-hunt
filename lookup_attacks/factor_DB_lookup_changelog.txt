@@ -1,0 +1,6 @@
+20/05/2025
+uploaded factor_DB_lookup.py to the repository
+takes an input number and sends it to the factorDB API (https://factordb.com/)
+gives information based on API response codes
+
+somewhat complete - tentative production
