@@ -24,10 +24,10 @@ implement maths module \n
 	- modular inverse functions \n
 	- gcd(a, b) function \n
 
-implement basic RSA parsing tools
-	- basic RSA decryption using known public and private keys
-	- RSA encryption setup using known public keys
-	- n, e, p, q, d, phi, eulers totient conversions for the above
+implement basic RSA parsing tools \n
+	- basic RSA decryption using known public and private keys \n
+	- RSA encryption setup using known public keys \n
+	- n, e, p, q, d, phi, eulers totient conversions for the above \n
 
 implement other parsing tools
 	- text to dec/hex/b64/bin and others
