@@ -19,10 +19,10 @@ define a CLI interface/UI
 	- time estimation for tasks
 	- loading bars/spinners
 
-implement maths module
-	- prime number handling
-	- modular inverse functions
-	- gcd(a, b) function
+implement maths module \n
+	- prime number handling \n
+	- modular inverse functions \n
+	- gcd(a, b) function \n
 
 implement basic RSA parsing tools
 	- basic RSA decryption using known public and private keys
