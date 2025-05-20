@@ -1,1 +1,9 @@
-20
+20/05/2025
+uploaded maths.py to the repository
+currently has functions to deal with:
+  - is_prime booleans
+  - generating a prime sieve below x
+  - square root estimation using babylonian method
+  - square root estimation using fractional exponentiation
+
+has issues dealing with float/int/decimals/sci-notation
