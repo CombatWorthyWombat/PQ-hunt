@@ -22,7 +22,7 @@ def suppress_sci(n):
     
     return ('{:.0f}'.format(n))
     
-# algorithm for finding the approximate root of n
+# function for finding the approximate root of n
 
 def sqrt_baby(n):
     
@@ -56,7 +56,7 @@ def sqrt_baby(n):
     except:
             return c.ansi98("<ValueError>: cannot root a negative")
         
-# square root through exponent 1/2, results in innacuracy using floats
+# function to find the square root of n through exponent 1/2, results in innacuracy using floats
 
 def sqrt_exponent(n):
     
