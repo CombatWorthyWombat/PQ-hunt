@@ -25,6 +25,7 @@ implement maths module
 	- prime number handling ☑
 	- modular inverse functions ☑
 	- gcd(a, b) function ☑
+ 	- miller-rabin primality test
 
 implement basic RSA parsing tools
 
