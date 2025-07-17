@@ -23,8 +23,8 @@ define a CLI/UI
 implement maths module
 
 	- prime number handling ☑
-	- modular inverse functions
-	- gcd(a, b) function
+	- modular inverse functions ☑
+	- gcd(a, b) function ☑
 
 implement basic RSA parsing tools
 
