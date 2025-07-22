@@ -3,7 +3,9 @@ Roadmap for the PQ_hunt RSA cracking tool
 
 **DISCLAIMER:**
 
-RSA encryption works. None of the tools in this program will work on properly implemented RSA
+RSA encryption works. None of the tools in this program will crack any properly implemented RSA
+
+Especially as this is my attempt to create all of the functions from scratch, so efficiency is likley to be off
 
 this tool is designed and intended for home lab and CTF purposes only. do not use this out in the wild
 
