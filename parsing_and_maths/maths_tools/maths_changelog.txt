@@ -7,3 +7,13 @@ currently has functions to deal with:
   - square root estimation using fractional exponentiation
 
 has issues dealing with float/int/decimals/sci-notation
+
+31/07/2025
+reworked maths.py:
+  - removed scientific notation handling function, replaced with floor division
+  - removed all prime handling functions (moved to prime_maths.py)
+  - removed modular exponention function (replaced by pow())
+  - added gcd()
+  - added extended gcd()
+  - added modular inverse
+  - added a function list and description
