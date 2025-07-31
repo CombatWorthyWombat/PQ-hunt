@@ -1,0 +1,13 @@
+31/07/2025
+added prime_maths.py with the following functions:
+
+  - is_prime (determinative prime function for n < 100000)
+  - prime_sieve (returns all primes < n in a list)
+  - miller_rabin_round (performs a single primality test)
+  - miller_rabin (performs k rounds)
+  - gen_prime (uses secrets.random and miller_rabin to generate primes of a certain bitlength)
+
+also contains constants:
+
+  - required_rounds (NIST reccomended rounds for cumulative certainty of 2^80 for primality, for certain bitlength)
+  - low_primes (avoids running prime_sieve for low primes by hardcoding)
