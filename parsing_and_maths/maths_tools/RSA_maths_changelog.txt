@@ -1,0 +1,8 @@
+31/07/2025
+added RSA_maths.py with the following functions:
+
+  - RSA_gen (generates the values p, q, n, e, d, tot for a given bitsize)
+  - encrypt (encrypts a message of type(int) with the RSA public key values)
+  - decrypt (decrypts a ciphertext of type(int) with the RSA private key values)
+
+might rename encrypt, decrypt later if I expand to other types of cryptography - will leave for the moment
