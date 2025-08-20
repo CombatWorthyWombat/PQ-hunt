@@ -37,8 +37,10 @@ implement basic RSA parsing tools
 
 implement other parsing tools
 
-	- text to dec/hex/b64/bin and others
-	- dec/hex/b64/bin to text
+	- b64 -> string, string -> b64 ☑
+	- hex -> string, string -> hex
+	- bin/byte -> string, string -> bin/byte
+	- dec -> string, string -> dec
 	- parser for standard format RSA keys
 	
 implement non-factorization attacks
