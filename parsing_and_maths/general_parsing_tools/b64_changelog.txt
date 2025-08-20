@@ -1,0 +1,7 @@
+20/08/2025
+uploaded b64.py to the repository
+defines two functions for use in other modules:
+  to_b64(string) -> translates a string to its base 64 representation
+  from_b64(string) -> translates a string from base 64 to its string representation
+
+probably complete - might need other non (string + b64) parsing for later
