@@ -62,6 +62,7 @@ implement lookup factorisation attacks
 implement mathematical factorisation attacks
  
 	- small n factorisation
+ 	- number field sieve
 	- searching p/q values smaller than 100,000
 	- assume p and q are close, and factorise based on root need
 	- Pollards p-1 - for non cryptographicall safe primes
